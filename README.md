@@ -7,10 +7,10 @@
  1. NET Core SDK Version 3.1
  2. Visual Studio
  
- #Folder Tutorial
+ # Folder Tutorial
  The tutorial folder is stored in `data` folder, and there is a sequence of tutorials about the C Sharp language.
  
- #Instalation Project
+ # Instalation Project
  1. Clone this project with new repository or download project file
  2. Cut folder `data` and paste without folder repository, ex : paste in your `Dekstop`
  3. Open `TutorialCSharp.sln` with Visual Studio IDE
