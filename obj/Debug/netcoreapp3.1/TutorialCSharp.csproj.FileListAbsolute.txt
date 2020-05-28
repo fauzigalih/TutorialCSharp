@@ -1,0 +1,13 @@
+D:\All Programs\C Sharp\TutorialCSharp\bin\Debug\netcoreapp3.1\TutorialCSharp.exe
+D:\All Programs\C Sharp\TutorialCSharp\bin\Debug\netcoreapp3.1\TutorialCSharp.deps.json
+D:\All Programs\C Sharp\TutorialCSharp\bin\Debug\netcoreapp3.1\TutorialCSharp.runtimeconfig.json
+D:\All Programs\C Sharp\TutorialCSharp\bin\Debug\netcoreapp3.1\TutorialCSharp.runtimeconfig.dev.json
+D:\All Programs\C Sharp\TutorialCSharp\bin\Debug\netcoreapp3.1\TutorialCSharp.dll
+D:\All Programs\C Sharp\TutorialCSharp\bin\Debug\netcoreapp3.1\TutorialCSharp.pdb
+D:\All Programs\C Sharp\TutorialCSharp\obj\Debug\netcoreapp3.1\TutorialCSharp.csprojAssemblyReference.cache
+D:\All Programs\C Sharp\TutorialCSharp\obj\Debug\netcoreapp3.1\TutorialCSharp.csproj.CoreCompileInputs.cache
+D:\All Programs\C Sharp\TutorialCSharp\obj\Debug\netcoreapp3.1\TutorialCSharp.AssemblyInfoInputs.cache
+D:\All Programs\C Sharp\TutorialCSharp\obj\Debug\netcoreapp3.1\TutorialCSharp.AssemblyInfo.cs
+D:\All Programs\C Sharp\TutorialCSharp\obj\Debug\netcoreapp3.1\TutorialCSharp.dll
+D:\All Programs\C Sharp\TutorialCSharp\obj\Debug\netcoreapp3.1\TutorialCSharp.pdb
+D:\All Programs\C Sharp\TutorialCSharp\obj\Debug\netcoreapp3.1\TutorialCSharp.genruntimeconfig.cache
