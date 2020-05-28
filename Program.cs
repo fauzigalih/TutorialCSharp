@@ -1,12 +1,12 @@
-﻿using System; //library
+﻿using System;
 
-namespace TutorialCSharp  //namespace
+namespace TutorialCSharp
 {
-    class Program //class
+    class Program
     {
-        static void Main(string[] args) //method special, automatic run program on this Main method and call a members
+        static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!"); //members in method
+            Console.WriteLine("Hello World!");
         }
     }
 
