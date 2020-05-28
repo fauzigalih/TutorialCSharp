@@ -1,4 +1,4 @@
-﻿using System; //library
+using System; //library
 
 namespace TutorialCSharp  //namespace
 {
