@@ -9,7 +9,7 @@ namespace TutorialCSharp //namespace
         {
             Person person = new Person(); //initialization  class Person
             person.FirstName = "Fauzi"; //set property FirstName in class Person
-            person.LastName = "Galih"; //set properti LastName in class Person
+            person.LastName = "Galih"; //set property LastName in class Person
 
             Console.Write("Guess what my name is? "); //statement a question
             string checkName = Console.ReadLine().ToLower(); //your answer
