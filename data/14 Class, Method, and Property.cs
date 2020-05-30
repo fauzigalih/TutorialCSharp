@@ -14,7 +14,7 @@ namespace TutorialCSharp //namespace
         }
     }
 
-    class Person
+    class Person //new class
     {
         public string FirstName { get; set; } //property with getter and setter
         public string LastName { get; set; } //property with getter and setter
