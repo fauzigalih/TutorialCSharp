@@ -8,7 +8,7 @@ namespace TutorialCSharp //namespace
         {
             Person person = new Person(); //initialization  class Person
             person.FirstName = "Fauzi"; //set property FirstName in class Person
-            person.LastName = "Galih"; //set properti LastName in class Person
+            person.LastName = "Galih"; //set property LastName in class Person
             Console.WriteLine(person.FullName); //print fullname with property FullName
             Console.WriteLine(person.GetFullName()); //print fullname with method GetFullName
         }
