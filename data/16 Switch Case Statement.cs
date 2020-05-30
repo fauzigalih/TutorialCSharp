@@ -6,10 +6,6 @@ namespace TutorialCSharp //namespace
     {
         static void Main(string[] args) //method special, automatic run program on this Main method and call a statement
         {
-            Person person = new Person(); //initialization  class Person
-            person.FirstName = "Fauzi"; //set property FirstName in class Person
-            person.LastName = "Galih"; //set property LastName in class Person
-
             Console.Write("Guess what my name is? "); //statement a question
             string checkName = Console.ReadLine().ToLower(); //your answer
 
@@ -26,16 +22,6 @@ namespace TutorialCSharp //namespace
                     Console.WriteLine("Ah, you wrong..!"); //print this statement
                     break;
             }
-        }
-    }
-
-    class Person //new class
-    {
-        public string FirstName { get; set; } //property with getter and setter
-        public string LastName { get; set; } //property with getter and setter
-        public string FullName //property with getter -> output: FirstName + LastName
-        {
-            get { return FirstName + " " + LastName; }
         }
     }
 }
