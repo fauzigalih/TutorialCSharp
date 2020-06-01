@@ -22,8 +22,8 @@ namespace TutorialCSharp //namespace
                 Console.WriteLine();
             }
 
-            //numbers.Length; output: 8 (total all array)
-            //numbers.GetLength(0); output: 1 2 3 4 (total row index 0 of array)
+            //numbers.Length; output: 8 (total all array -> is value)
+            //numbers.GetLength(0); output: 4 [1 2 3 4] (total row index 0 of array)
         }
     }
 }
