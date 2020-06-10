@@ -1,6 +1,5 @@
 using System; //library
 
-delegate int Sum(int sum); //delegate
 namespace TutorialCSharp //namespace
 {
     class Program //class
