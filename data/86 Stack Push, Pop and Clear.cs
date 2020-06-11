@@ -7,18 +7,18 @@ namespace TutorialCSharp //namespace
     {
         static void Main(string[] args) //method special, automatic run program on this Main method and call a statement
         {
-            Push("Welcome");
-            Push(1);
-            Push(2);
-            Push(3);
-            Push(true);
-            Push(null);
-            Push(3.5f);
+            Add("Welcome");
+            Add(1);
+            Add(2);
+            Add(3);
+            Add(true);
+            Add(null);
+            Add(3.5f);
             StackList();
 
-            Pop();
-            Pop();
-            Pop();
+            Remove();
+            Remove();
+            Remove();
             StackList();
 
             Clear();
@@ -27,12 +27,12 @@ namespace TutorialCSharp //namespace
 
         static Stack stack = new Stack(); //Stack
 
-        static void Push(dynamic push) //Push is Add value in last to stack
+        static void Add(dynamic add) //Push is Add value in last to stack
         {
-            stack.Push(push);
+            stack.Push(add);
         }
 
-        static void Pop() //Pop is Remove value in last to stack
+        static void Remove() //Pop is Remove value in last to stack
         {
             stack.Pop();
         }
