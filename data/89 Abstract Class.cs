@@ -12,6 +12,5 @@ namespace TutorialCSharp //namespace
 
     abstract class Person //abstract class
     {
-
     }
 }
