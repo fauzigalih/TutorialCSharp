@@ -17,5 +17,4 @@ namespace TutorialCSharp //namespace
             int d = (int)c; //4 byte
         }
     }
-
 }
