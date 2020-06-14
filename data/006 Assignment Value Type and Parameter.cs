@@ -15,5 +15,4 @@ namespace TutorialCSharp //namespace
             Console.WriteLine(x); //print statement variable x
         }
     }
-
 }
