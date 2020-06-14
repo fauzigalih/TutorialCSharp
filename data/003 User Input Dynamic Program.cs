@@ -11,5 +11,4 @@ namespace TutorialCSharp //namespace
             Console.WriteLine("Your name is " + name); //statement concat with variable name (input type)
         }
     }
-
 }
