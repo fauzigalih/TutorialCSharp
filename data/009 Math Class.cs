@@ -18,5 +18,4 @@ namespace TutorialCSharp //namespace
             //You can check other Math class in link : https://docs.microsoft.com/en-us/dotnet/api/system.math?view=netcore-3.1
         }
     }
-
 }
