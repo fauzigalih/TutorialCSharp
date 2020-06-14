@@ -17,5 +17,4 @@ namespace TutorialCSharp //namespace
             Console.WriteLine(z); //statement not null print 5
         }
     }
-
 }
