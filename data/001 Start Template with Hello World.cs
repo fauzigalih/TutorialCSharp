@@ -9,7 +9,6 @@ namespace TutorialCSharp  //namespace
             Console.WriteLine("Hello World!"); //a statement
         }
     }
-
 }
 
 //namespace -> class -> members -> method -> statement
