@@ -18,5 +18,4 @@ namespace TutorialCSharp //namespace
             //you can see full information types data c sharp in url : https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types-and-variables
         }
     }
-
 }
