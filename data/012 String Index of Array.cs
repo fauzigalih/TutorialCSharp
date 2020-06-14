@@ -14,5 +14,4 @@ namespace TutorialCSharp //namespace
             Console.WriteLine("My name is {0}, and length my name is {1}.", name, name.Length); //replace index {0} with name and {1} with name.Length
         }
     }
-
 }
