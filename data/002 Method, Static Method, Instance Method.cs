@@ -24,6 +24,5 @@ namespace TutorialCSharp //namespace
             Console.WriteLine("This is static method!"); //statement
         }
     }
-
 }
 
