@@ -14,5 +14,4 @@ namespace TutorialCSharp //namespace
             //this a example for method and property string
         }
     }
-
 }
