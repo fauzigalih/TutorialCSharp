@@ -1,4 +1,5 @@
 using System; //library
+using System.Collections.Generic;
 using System.Linq;
 
 namespace TutorialCSharp //namespace
@@ -8,6 +9,7 @@ namespace TutorialCSharp //namespace
         static void Main(string[] args) //method special, automatic run program on this Main method and call a statement
         {
             QueryStringArray();
+            QueryList();
         }
 
         static void QueryStringArray()
@@ -24,5 +26,25 @@ namespace TutorialCSharp //namespace
                 Console.WriteLine(name);
             }
         }
+
+        static void QueryList()
+        {
+            List<Person> persons = new List<Person>()
+            {
+                new Person(){Name = "Fauzi", Age = 23},
+                new Person(){Name = "Galih", Age = 24}
+            };
+
+            var personQuery = from person in persons
+                              select person;
+
+            foreach (var i in personQuery) Console.WriteLine(i.Name + " and " + i.Age);
+        }
+    }
+
+    class Person
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
     }
 }
