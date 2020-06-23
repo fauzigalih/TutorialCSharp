@@ -37,18 +37,28 @@ namespace TutorialCSharp //namespace
                 new Item() {ItemID = 4, ItemName = "Pencil"},
             };
 
-            var innerJoin = persons.Join(
-                items,
-                person => person.PersonID,
-                item => item.ItemID,
-                (person, item) => new
+            var innerJoin = persons.Join( //outer
+                items, //inner
+                person => person.PersonID, //outerKey selector
+                item => item.ItemID, //innerKey selector
+                (person, item) => new //result selector
                 {
                     Name = person.Name,
                     ItemName = item.ItemName,
                 });
+
             foreach (var i in innerJoin) Console.WriteLine(i);
             Console.WriteLine("String :");
             foreach (var i in innerJoin) Console.WriteLine($"{i.Name} and {i.ItemName}");
+
+            var innerJoin2 = from person in persons //outer
+                             join item in items //inner
+                             on person.PersonID equals item.ItemID //key selector
+                             select new //result selector
+                             {
+                                 Name = person.Name,
+                                 ItemName = item.ItemName
+                             };
         }
     }
 
