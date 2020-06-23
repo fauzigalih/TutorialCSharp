@@ -24,6 +24,8 @@ namespace TutorialCSharp //namespace
             var groupQuery = from list in lists
                              group list by list.Age;
 
+            var groupQuery2 = lists.GroupBy(s => s.Age); //simple
+
             foreach(var group in groupQuery)
             {
                 Console.WriteLine(group.Key);
