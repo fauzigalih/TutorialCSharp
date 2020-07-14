@@ -17,6 +17,6 @@
  4. Open file `Program.cs`
  5. Replace content `Program.cs` with tutorial in folder `data` that you moved
  6. Run program with debug or `F5`, and do it like this (replace and run) in the `data` folder
- 7. Finish
+ 7. Finish.
  
  <br><br><br>Created by: <a href="https://www.instagram.com/fauzigalihajisaputro/">@fauzigalihajisaputro</a>
