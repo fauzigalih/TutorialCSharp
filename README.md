@@ -1,7 +1,7 @@
 # TutorialCSharp
  This tutorial basic C Sharp language program
  
- Status : <b>On Progress</b>
+ Status : <b>On Progress.</b>
  
  # Required Project
  1. NET Core SDK Version 3.1
